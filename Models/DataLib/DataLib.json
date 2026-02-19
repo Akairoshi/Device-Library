@@ -1,0 +1,297 @@
+[
+  {
+    "Type": "Phone",
+    "DeviceInfo": { "Manufacturer": "Samsung", "Model": "Galaxy S24 Ultra" },
+    "DisplayInfo": { "Resolution": 1440, "Type": "DynamicAMOLED2X", "ScreenRefresh": 120 },
+    "HardwareInfo": {
+      "Processor": "Snapdragon 8 Gen 3", "Ram": 12, "Rom": 512, "ChargeSpeed": 45,
+      "Cameras": [
+        { "CameraType": "Main", "Megapixels": 200 },
+        { "CameraType": "Ultrawide", "Megapixels": 12 },
+        { "CameraType": "Telephoto", "Megapixels": 10 },
+        { "CameraType": "Periscope", "Megapixels": 50 },
+        { "CameraType": "Selfie", "Megapixels": 12 }
+      ]
+    },
+    "SoftwareInfo": { "OsName": "One UI", "Version": "6.1" }
+  },
+  {
+    "Type": "Phone",
+    "DeviceInfo": { "Manufacturer": "Apple", "Model": "iPhone 15 Pro Max" },
+    "DisplayInfo": { "Resolution": 1290, "Type": "OLED", "ScreenRefresh": 120 },
+    "HardwareInfo": {
+      "Processor": "A17 Pro", "Ram": 8, "Rom": 256, "ChargeSpeed": 27,
+      "Cameras": [
+        { "CameraType": "Main", "Megapixels": 48 },
+        { "CameraType": "Ultrawide", "Megapixels": 12 },
+        { "CameraType": "Telephoto", "Megapixels": 12 },
+        { "CameraType": "Selfie", "Megapixels": 12 }
+      ]
+    },
+    "SoftwareInfo": { "OsName": "iOS", "Version": "17.4" }
+  },
+  {
+    "Type": "Phone",
+    "DeviceInfo": { "Manufacturer": "Xiaomi", "Model": "14 Ultra" },
+    "DisplayInfo": { "Resolution": 1440, "Type": "AMOLED", "ScreenRefresh": 120 },
+    "HardwareInfo": {
+      "Processor": "Snapdragon 8 Gen 3", "Ram": 16, "Rom": 512, "ChargeSpeed": 90,
+      "Cameras": [
+        { "CameraType": "Main", "Megapixels": 50 },
+        { "CameraType": "Ultrawide", "Megapixels": 50 },
+        { "CameraType": "Periscope", "Megapixels": 50 },
+        { "CameraType": "Telephoto", "Megapixels": 50 },
+        { "CameraType": "Selfie", "Megapixels": 32 }
+      ]
+    },
+    "SoftwareInfo": { "OsName": "HyperOS", "Version": "1.0" }
+  },
+  {
+    "Type": "Phone",
+    "DeviceInfo": { "Manufacturer": "Google", "Model": "Pixel 8 Pro" },
+    "DisplayInfo": { "Resolution": 1344, "Type": "OLED", "ScreenRefresh": 120 },
+    "HardwareInfo": {
+      "Processor": "Google Tensor G3", "Ram": 12, "Rom": 128, "ChargeSpeed": 30,
+      "Cameras": [
+        { "CameraType": "Main", "Megapixels": 50 },
+        { "CameraType": "Ultrawide", "Megapixels": 48 },
+        { "CameraType": "Telephoto", "Megapixels": 48 },
+        { "CameraType": "Selfie", "Megapixels": 10 }
+      ]
+    },
+    "SoftwareInfo": { "OsName": "Android", "Version": "14" }
+  },
+  {
+    "Type": "Phone",
+    "DeviceInfo": { "Manufacturer": "OnePlus", "Model": "12" },
+    "DisplayInfo": { "Resolution": 1440, "Type": "AMOLED", "ScreenRefresh": 120 },
+    "HardwareInfo": {
+      "Processor": "Snapdragon 8 Gen 3", "Ram": 16, "Rom": 512, "ChargeSpeed": 100,
+      "Cameras": [
+        { "CameraType": "Main", "Megapixels": 50 },
+        { "CameraType": "Ultrawide", "Megapixels": 48 },
+        { "CameraType": "Periscope", "Megapixels": 64 },
+        { "CameraType": "Selfie", "Megapixels": 32 }
+      ]
+    },
+    "SoftwareInfo": { "OsName": "OxygenOS", "Version": "14" }
+  },
+  {
+    "Type": "Phone",
+    "DeviceInfo": { "Manufacturer": "Sony", "Model": "Xperia 1 V" },
+    "DisplayInfo": { "Resolution": 1644, "Type": "OLED", "ScreenRefresh": 120 },
+    "HardwareInfo": {
+      "Processor": "Snapdragon 8 Gen 2", "Ram": 12, "Rom": 256, "ChargeSpeed": 30,
+      "Cameras": [
+        { "CameraType": "Main", "Megapixels": 48 },
+        { "CameraType": "Ultrawide", "Megapixels": 12 },
+        { "CameraType": "Telephoto", "Megapixels": 12 },
+        { "CameraType": "Selfie", "Megapixels": 12 }
+      ]
+    },
+    "SoftwareInfo": { "OsName": "Android", "Version": "13" }
+  },
+  {
+    "Type": "Phone",
+    "DeviceInfo": { "Manufacturer": "Asus", "Model": "ROG Phone 8 Pro" },
+    "DisplayInfo": { "Resolution": 1080, "Type": "AMOLED", "ScreenRefresh": 165 },
+    "HardwareInfo": {
+      "Processor": "Snapdragon 8 Gen 3", "Ram": 24, "Rom": 1024, "ChargeSpeed": 65,
+      "Cameras": [
+        { "CameraType": "Main", "Megapixels": 50 },
+        { "CameraType": "Ultrawide", "Megapixels": 13 },
+        { "CameraType": "Macro", "Megapixels": 5 },
+        { "CameraType": "Selfie", "Megapixels": 32 }
+      ]
+    },
+    "SoftwareInfo": { "OsName": "Android", "Version": "14" }
+  },
+  {
+    "Type": "Phone",
+    "DeviceInfo": { "Manufacturer": "Nothing", "Model": "Phone (2a)" },
+    "DisplayInfo": { "Resolution": 1080, "Type": "AMOLED", "ScreenRefresh": 120 },
+    "HardwareInfo": {
+      "Processor": "Dimensity 7200 Pro", "Ram": 12, "Rom": 256, "ChargeSpeed": 45,
+      "Cameras": [
+        { "CameraType": "Main", "Megapixels": 50 },
+        { "CameraType": "Ultrawide", "Megapixels": 50 },
+        { "CameraType": "Selfie", "Megapixels": 32 }
+      ]
+    },
+    "SoftwareInfo": { "OsName": "Nothing OS", "Version": "2.5" }
+  },
+  {
+    "Type": "Phone",
+    "DeviceInfo": { "Manufacturer": "Honor", "Model": "Magic6 Pro" },
+    "DisplayInfo": { "Resolution": 1280, "Type": "OLED", "ScreenRefresh": 120 },
+    "HardwareInfo": {
+      "Processor": "Snapdragon 8 Gen 3", "Ram": 12, "Rom": 512, "ChargeSpeed": 80,
+      "Cameras": [
+        { "CameraType": "Main", "Megapixels": 50 },
+        { "CameraType": "Ultrawide", "Megapixels": 50 },
+        { "CameraType": "Periscope", "Megapixels": 180 },
+        { "CameraType": "Selfie", "Megapixels": 50 }
+      ]
+    },
+    "SoftwareInfo": { "OsName": "MagicOS", "Version": "8.0" }
+  },
+  {
+    "Type": "Phone",
+    "DeviceInfo": { "Manufacturer": "Vivo", "Model": "X100 Pro" },
+    "DisplayInfo": { "Resolution": 1260, "Type": "AMOLED", "ScreenRefresh": 120 },
+    "HardwareInfo": {
+      "Processor": "Dimensity 9300", "Ram": 16, "Rom": 512, "ChargeSpeed": 100,
+      "Cameras": [
+        { "CameraType": "Main", "Megapixels": 50 },
+        { "CameraType": "Ultrawide", "Megapixels": 50 },
+        { "CameraType": "Periscope", "Megapixels": 50 },
+        { "CameraType": "Selfie", "Megapixels": 32 }
+      ]
+    },
+    "SoftwareInfo": { "OsName": "Funtouch OS", "Version": "14" }
+  },
+  {
+    "Type": "Tablet",
+    "DeviceInfo": { "Manufacturer": "Samsung", "Model": "Galaxy Tab S9 Ultra" },
+    "DisplayInfo": { "Resolution": 1848, "Type": "DynamicAMOLED2X", "ScreenRefresh": 120 },
+    "HardwareInfo": {
+      "Processor": "Snapdragon 8 Gen 2", "Ram": 12, "Rom": 512, "ChargeSpeed": 45,
+      "Cameras": [
+        { "CameraType": "Main", "Megapixels": 13 },
+        { "CameraType": "Ultrawide", "Megapixels": 8 },
+        { "CameraType": "Selfie", "Megapixels": 12 }
+      ]
+    },
+    "SoftwareInfo": { "OsName": "One UI", "Version": "5.1" }
+  },
+  {
+    "Type": "Tablet",
+    "DeviceInfo": { "Manufacturer": "Apple", "Model": "iPad Pro 13 (M4)" },
+    "DisplayInfo": { "Resolution": 2064, "Type": "OLED", "ScreenRefresh": 120 },
+    "HardwareInfo": {
+      "Processor": "Apple M4", "Ram": 16, "Rom": 1024, "ChargeSpeed": 30,
+      "Cameras": [
+        { "CameraType": "Main", "Megapixels": 12 },
+        { "CameraType": "Selfie", "Megapixels": 12 }
+      ]
+    },
+    "SoftwareInfo": { "OsName": "iPadOS", "Version": "17.5" }
+  },
+  {
+    "Type": "Tablet",
+    "DeviceInfo": { "Manufacturer": "Xiaomi", "Model": "Pad 6S Pro" },
+    "DisplayInfo": { "Resolution": 2032, "Type": "LCD", "ScreenRefresh": 144 },
+    "HardwareInfo": {
+      "Processor": "Snapdragon 8 Gen 2", "Ram": 12, "Rom": 512, "ChargeSpeed": 120,
+      "Cameras": [
+        { "CameraType": "Main", "Megapixels": 50 },
+        { "CameraType": "Selfie", "Megapixels": 32 }
+      ]
+    },
+    "SoftwareInfo": { "OsName": "HyperOS", "Version": "1.0" }
+  },
+  {
+    "Type": "Phone",
+    "DeviceInfo": { "Manufacturer": "Motorola", "Model": "Edge 50 Ultra" },
+    "DisplayInfo": { "Resolution": 1220, "Type": "OLED", "ScreenRefresh": 144 },
+    "HardwareInfo": {
+      "Processor": "Snapdragon 8s Gen 3", "Ram": 16, "Rom": 1024, "ChargeSpeed": 125,
+      "Cameras": [
+        { "CameraType": "Main", "Megapixels": 50 },
+        { "CameraType": "Ultrawide", "Megapixels": 50 },
+        { "CameraType": "Periscope", "Megapixels": 64 },
+        { "CameraType": "Selfie", "Megapixels": 50 }
+      ]
+    },
+    "SoftwareInfo": { "OsName": "Android", "Version": "14" }
+  },
+  {
+    "Type": "Phone",
+    "DeviceInfo": { "Manufacturer": "Nubia", "Model": "RedMagic 9 Pro" },
+    "DisplayInfo": { "Resolution": 1116, "Type": "AMOLED", "ScreenRefresh": 120 },
+    "HardwareInfo": {
+      "Processor": "Snapdragon 8 Gen 3", "Ram": 16, "Rom": 512, "ChargeSpeed": 80,
+      "Cameras": [
+        { "CameraType": "Main", "Megapixels": 50 },
+        { "CameraType": "Ultrawide", "Megapixels": 50 },
+        { "CameraType": "Selfie", "Megapixels": 16 }
+      ]
+    },
+    "SoftwareInfo": { "OsName": "RedMagic OS", "Version": "9.0" }
+  },
+  {
+    "Type": "Phone",
+    "DeviceInfo": { "Manufacturer": "Poco", "Model": "F6 Pro" },
+    "DisplayInfo": { "Resolution": 1440, "Type": "AMOLED", "ScreenRefresh": 120 },
+    "HardwareInfo": {
+      "Processor": "Snapdragon 8 Gen 2", "Ram": 12, "Rom": 512, "ChargeSpeed": 120,
+      "Cameras": [
+        { "CameraType": "Main", "Megapixels": 50 },
+        { "CameraType": "Ultrawide", "Megapixels": 8 },
+        { "CameraType": "Macro", "Megapixels": 2 },
+        { "CameraType": "Selfie", "Megapixels": 16 }
+      ]
+    },
+    "SoftwareInfo": { "OsName": "HyperOS", "Version": "1.0" }
+  },
+  {
+    "Type": "Phone",
+    "DeviceInfo": { "Manufacturer": "Samsung", "Model": "Galaxy Z Fold 6" },
+    "DisplayInfo": { "Resolution": 1856, "Type": "DynamicAMOLED2X", "ScreenRefresh": 120 },
+    "HardwareInfo": {
+      "Processor": "Snapdragon 8 Gen 3", "Ram": 12, "Rom": 256, "ChargeSpeed": 25,
+      "Cameras": [
+        { "CameraType": "Main", "Megapixels": 50 },
+        { "CameraType": "Ultrawide", "Megapixels": 12 },
+        { "CameraType": "Telephoto", "Megapixels": 10 },
+        { "CameraType": "Selfie", "Megapixels": 10 }
+      ]
+    },
+    "SoftwareInfo": { "OsName": "One UI", "Version": "6.1" }
+  },
+  {
+    "Type": "Phone",
+    "DeviceInfo": { "Manufacturer": "Google", "Model": "Pixel Fold" },
+    "DisplayInfo": { "Resolution": 1840, "Type": "OLED", "ScreenRefresh": 120 },
+    "HardwareInfo": {
+      "Processor": "Google Tensor G2", "Ram": 12, "Rom": 256, "ChargeSpeed": 30,
+      "Cameras": [
+        { "CameraType": "Main", "Megapixels": 48 },
+        { "CameraType": "Ultrawide", "Megapixels": 10 },
+        { "CameraType": "Telephoto", "Megapixels": 10 },
+        { "CameraType": "Selfie", "Megapixels": 9 }
+      ]
+    },
+    "SoftwareInfo": { "OsName": "Android", "Version": "13" }
+  },
+  {
+    "Type": "Phone",
+    "DeviceInfo": { "Manufacturer": "Oppo", "Model": "Find X7 Ultra" },
+    "DisplayInfo": { "Resolution": 1440, "Type": "AMOLED", "ScreenRefresh": 120 },
+    "HardwareInfo": {
+      "Processor": "Snapdragon 8 Gen 3", "Ram": 16, "Rom": 512, "ChargeSpeed": 100,
+      "Cameras": [
+        { "CameraType": "Main", "Megapixels": 50 },
+        { "CameraType": "Ultrawide", "Megapixels": 50 },
+        { "CameraType": "Periscope", "Megapixels": 50 },
+        { "CameraType": "Telephoto", "Megapixels": 50 },
+        { "CameraType": "Selfie", "Megapixels": 32 }
+      ]
+    },
+    "SoftwareInfo": { "OsName": "ColorOS", "Version": "14" }
+  },
+  {
+    "Type": "Tablet",
+    "DeviceInfo": { "Manufacturer": "Lenovo", "Model": "Legion Tab Y700" },
+    "DisplayInfo": { "Resolution": 1600, "Type": "IPS", "ScreenRefresh": 144 },
+    "HardwareInfo": {
+      "Processor": "Snapdragon 8+ Gen 1", "Ram": 12, "Rom": 256, "ChargeSpeed": 45,
+      "Cameras": [
+        { "CameraType": "Main", "Megapixels": 13 },
+        { "CameraType": "Macro", "Megapixels": 2 },
+        { "CameraType": "Selfie", "Megapixels": 8 }
+      ]
+    },
+    "SoftwareInfo": { "OsName": "ZUI", "Version": "15" }
+  }
+]
