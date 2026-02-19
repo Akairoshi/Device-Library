@@ -1,0 +1,124 @@
+<Window x:Class="Device_Library_WPF.Views.InfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Device Info"
+        Height="500" Width="825"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="{StaticResource BgBrush}"
+        Foreground="{StaticResource TextBrush}">
+
+    <Grid Margin="{StaticResource P_Window}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="16"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Top bar -->
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" MinWidth="109"/>
+                <ColumnDefinition Width="17"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0">
+                <TextBlock Text="Device Library" FontSize="16" FontWeight="SemiBold" Width="109"/>
+                <TextBlock Text="by Akairoshi" Opacity="0.85" Margin="0,4,0,0"/>
+            </StackPanel>
+            <TextBlock Text="Device information" FontSize="34" FontWeight="Bold" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Cascadia Code"/>
+        </Grid>
+
+        <!-- Main card-->
+        <Border Grid.Row="2" Style="{StaticResource CardContainer}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="235"/>
+                    <ColumnDefinition Width="40"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+
+                <!-- Right side with info -->
+                <Grid Grid.Column="2" Grid.Row="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="44"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Style="{StaticResource HeaderText}" FontSize="20" VerticalAlignment="Center" Grid.Row="1" Height="44" Width="460"><Run Text="{Binding Device.Manufacturer}"/> <Run Text="{Binding Device.Model}"/></TextBlock>
+
+                    <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Margin="0,10,0,0">
+                        <ScrollViewer.Resources>
+                            <Style TargetType="{x:Type ScrollBar}" BasedOn="{StaticResource RoundedScrollBar}"/>
+                        </ScrollViewer.Resources>
+
+                        <StackPanel>
+                            <TextBlock Style="{StaticResource InfoLine}"><Run Text="Device type: "/><Run Text="{Binding Device.DeviceType}"/></TextBlock>
+
+                            <TextBlock Style="{StaticResource InfoLine}"><Run Text="Memory: "/><Run Text="{Binding Device.MemoryText, Mode=OneWay}"/></TextBlock>
+
+                            <TextBlock Style="{StaticResource InfoLine}"><Run Text="CPU: "/><Run Text="{Binding Device.Cpu}"/></TextBlock>
+
+                            <TextBlock Style="{StaticResource InfoLine}"><Run Text="Screen: "/><Run Text="{Binding Device.ScreenType}"/> <Run Text="{Binding Device.Resolution, StringFormat=\{0\}p}"/> <Run Text="{Binding Device.RefreshRate, StringFormat=\{0\}Hz}"/></TextBlock>
+
+                            <TextBlock Style="{StaticResource InfoLine}" Margin="0,0,0,4"><Run Text="Cameras:"/></TextBlock>
+
+                            <ItemsControl ItemsSource="{Binding Device.Cameras, Mode=OneWay}" Margin="0,0,0,10">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Style="{StaticResource InfoLine}" Margin="18,0,0,4"><Run Text="{Binding CameraType}"/><Run Text=": "/><Run Text="{Binding MegaPixels}"/><Run Text="mp"/></TextBlock>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+
+                            <TextBlock Style="{StaticResource InfoLine}"><Run Text="Charge speed: "/><Run Text="{Binding Device.ChargeSpeed}"/><Run Text="W"/></TextBlock>
+
+                            <TextBlock Style="{StaticResource InfoLine}"><Run Text="OS: "/><Run Text="{Binding Device.OsName}"/> <Run Text="{Binding Device.OsVersion}"/></TextBlock>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+                <!-- Left side with image-->
+                <Button Style="{StaticResource PillButton}"
+                            Content="Remove"
+                            Height="36"
+                            Command="{Binding RemoveCommand}" VerticalAlignment="Center" Grid.Row="1"/>
+                <Border Background="#1AFFFFFF"
+                            CornerRadius="{StaticResource R_Card}"
+                            BorderBrush="{StaticResource BorderBrushSoft}"
+                            BorderThickness="1" Margin="0,0,0,22">
+                    <Grid ClipToBounds="True">
+                        <Image Source="{Binding Device.DeviceImage}"/>
+
+                        <!-- Placeholder if null -->
+                        <TextBlock Text="DeviceImage"
+                                       HorizontalAlignment="Center"
+                                       VerticalAlignment="Center"
+                                       Opacity="0.85">
+                            <TextBlock.Style>
+                                <Style TargetType="{x:Type TextBlock}">
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding Device.DeviceImage}" Value="{x:Null}">
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBlock.Style>
+                        </TextBlock>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
